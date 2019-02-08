@@ -93,7 +93,7 @@
   "Default equality comparison method. Returns true if objects A and B
    are the same object, compared using CL:EQ."
 
-  (cl:eq a b))
+  (cl:equalp a b))
 
 
 ;;;; N-Argument Functions
